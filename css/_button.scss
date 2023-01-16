@@ -6,7 +6,7 @@
     margin: 0 15px;
     perspective: 1000px;
   }
-  span a{
+  .span-button a{
     font-size: 19px;
     letter-spacing: 1px;
     transform-style: preserve-3d;
@@ -16,8 +16,8 @@
     font-weight: 400;
 
   }
-  span a:before,
-  span a:after{
+  .span-button a:before,
+  .span-button a:after{
     position: absolute;
     content: "See More...";
     height: 55px;
@@ -25,19 +25,66 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid black;
+    border: 5px solid #064B92;
     box-sizing: border-box;
     border-radius: 5px;
   }
-  span a:before{
+  .span-button a:before{
     color: #fff;
-    background: #000;
+    background: #064B92;
     transform: rotateY(0deg) translateZ(25px);
   }
-  span a:after{
-    color: #000;
+  .span-button a:after{
+    color: #064B92;
     transform: rotateX(90deg) translateZ(25px);
   }
-  span a:hover{
+  .span-button a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+
+
+  //boton blanco
+
+  .span-button2{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  .span-button2 a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    // font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+  }
+  .span-button2 a:before,
+  .span-button2 a:after{
+    position: absolute;
+    content: "See More...";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .span-button2 a:before{
+    color: black;
+    background: white;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .span-button2 a:after{
+    color: white;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .span-button2 a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
   }
