@@ -5,14 +5,10 @@
 
 body{
   font-family: Lato, sans-serif;
-  
+
 }
 .without-list{
   list-style: none;
-}
-
-.marginC{
-  margin-top: 80px;
 }
 
 
@@ -25,17 +21,8 @@ body{
 }
 
 
-.car-p p{
-  padding: 0;
-  max-width: 400px;
-
-}
-
 .round-form{
   border-radius: 30px;
-}
-.round-img{
-  border-radius: 15px;
 }
 
 h1{
@@ -49,4 +36,15 @@ h1{
 section{
   width: 100%;
   height: 100vh;
+}
+
+.section2{
+  width: 100%;
+  height: 60vh;
+}
+
+
+.img-d{
+  width: 30em;
+  height: 30em;
 }
